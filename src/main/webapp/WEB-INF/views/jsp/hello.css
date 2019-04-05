@@ -1,0 +1,85 @@
+
+
+.form-control
+    {
+         border-radius:5px;
+         width: 90%;
+         clear: both;
+         width: 100%;
+         
+    }
+  
+  #form , h1
+  {
+    display: table;
+    
+    margin: 0 auto;
+    
+    font-family: verdana;
+    
+  }
+  
+  
+  .container 
+  {
+	    width:720px;
+	   	background: #fff;
+	 	margin: 0 auto;
+	 	border-radius:6px;
+	 	overflow: hidden;
+	 	border: 1px solid gold;
+	 	padding: 0 0 20px;
+	 	box-sizing: border-circle; 
+	    box-shadow : 0px 1px 6px rgba(0,0,0,0.2);
+	
+  }
+  
+  
+  #add
+  {
+      
+      border-radius:5px;
+      color: white;
+       background-color: #8064A2;
+     
+      border-top: 20%;
+      padding: 15px 32px;
+       
+  }
+  #add:HOVER {
+	background-color: #4286f4;
+	color: white;	
+	  width: 100%; 
+ }
+ 
+.msg
+{
+ width:720px;
+ overflow: hidden;
+ background-color: pink;
+ padding: 0 0 20px;
+ box-sizing: border-circle; 
+ box-shadow : 0px 1px 6px rgba(0,0,0,0.2);
+}
+
+
+form:errors
+{
+  color: white;
+  background-color: red;
+}
+
+#err
+{
+background-color: pink;
+color: black;
+}
+  
+  @media only screen and (max-width: 480px) {
+    #form {
+        width:95%;
+    }
+    form:input[type=text], textarea {
+        width:75%;
+    }
+}
